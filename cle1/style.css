@@ -49,6 +49,22 @@ header {
     border-bottom: 2px solid var(--border-color);
 }
 
+header p {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    max-width: 71%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 1vh;
+    word-break: break-word;
+}
 
 @media (max-width: 1000px) {
 
