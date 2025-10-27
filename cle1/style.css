@@ -40,7 +40,7 @@ nav img {
 }
 
 .button1, .button2, .button3, .button{
-    background-color: var(--tertiary-bg-color);
+    background-color: var(--secondary-bg-color);
     border: none;
     color: var(--text-color);
     padding: 10px 20px;
@@ -71,10 +71,10 @@ header {
     padding: 10px;
     border-bottom: 1px solid var(--border-color);
     text-shadow:
-            -1px -1px 0 var(--secondary-bg-color),  /* top-left shadow */
-            1px -1px 0 var(--secondary-bg-color),  /* top-right shadow */
-            -1px 1px 0 var(--secondary-bg-color),  /* bottom-left shadow */
-            1px 1px 0 var(--secondary-bg-color);  /* bottom-right shadow */
+            -1px -1px 0 var(--quaternary-bg-color),  /* top-left shadow */
+            1px -1px 0 var(--quaternary-bg-color),  /* top-right shadow */
+            -1px 1px 0 var(--quaternary-bg-color),  /* bottom-left shadow */
+            1px 1px 0 var(--quaternary-bg-color);  /* bottom-right shadow */
 }
 
 header p {
