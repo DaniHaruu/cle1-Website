@@ -40,7 +40,7 @@ nav img {
 }
 
 .button1, .button2, .button3, .button{
-    background-color: var(--secondary-bg-color);
+    background-color: var(--tertiary-bg-color);
     border: none;
     color: var(--text-color);
     padding: 10px 20px;
