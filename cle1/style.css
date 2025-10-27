@@ -1,8 +1,8 @@
 :root { 
     --primary-bg-color: white; 
     --secondary-bg-color: #cae9ff;
-    --tertiary-bg-color: #5fa8d3;
-    --quaternary-bg-color: #c5add9;
+    --tertiary-bg-color: #c2f0cf;
+    --quaternary-bg-color: #80cfc9;
     --text-color: #000000; 
     --border-color: #000000; 
 }
@@ -108,6 +108,7 @@ footer {
     display: flex;
     justify-content: space-around;
     text-decoration: none;
+    background-color:var(--secondary-bg-color);
 }
 
 
