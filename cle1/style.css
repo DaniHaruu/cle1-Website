@@ -40,7 +40,8 @@ nav img {
 }
 
 header {
-    background-color:var(--tertiary-bg-color);
+    background-image: url(https://cdn.nos.nl/image/2016/06/01/286866/xxl.jpg);
+    background-size: cover;
     height: 30vh;
     text-align: center;
     color: var(--text-color);
