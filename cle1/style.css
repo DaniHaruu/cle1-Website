@@ -61,6 +61,20 @@ header p {
     word-break: break-word;
 }
 
+.section1 {
+    background-color:var(--tertiary-bg-color);
+}
+
+
+.section2 {
+    background-color:var(--quaternary-bg-color);
+}
+
+
+.section3 {
+    background-color:var(--tertiary-bg-color);
+}
+
 @media (max-width: 1000px) {
 
     nav {
