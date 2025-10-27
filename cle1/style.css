@@ -63,20 +63,23 @@ header p {
 
 .section1 {
     background-color:var(--tertiary-bg-color);
-    border-bottom: 2px solid var(--border-color);
-    margin: 0;
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    padding: 8px 40px;
 }
 
 .section2 {
     background-color:var(--quaternary-bg-color);
-    border-bottom: 2px solid var(--border-color);
-    margin: 0;
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    padding: 8px 40px;
 }
 
 .section3 {
     background-color:var(--tertiary-bg-color);
     border-bottom: 2px solid var(--border-color);
-    margin: 0;
+    border-top: 1px solid var(--border-color);
+    padding: 8px 40px;
 }
 
 
