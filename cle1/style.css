@@ -56,12 +56,6 @@ header p {
     line-height: 1.8rem;
     max-width: 71%;
     width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     margin: auto;
     padding-bottom: 1vh;
     word-break: break-word;
