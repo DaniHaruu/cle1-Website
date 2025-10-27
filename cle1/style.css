@@ -80,17 +80,25 @@ header p {
 
 .section1 {
     background-color:var(--tertiary-bg-color);
+    border-bottom: 2px solid var(--border-color);
+    margin: 0;
 }
-
 
 .section2 {
     background-color:var(--quaternary-bg-color);
+    border-bottom: 2px solid var(--border-color);
+    margin: 0;
 }
-
 
 .section3 {
     background-color:var(--tertiary-bg-color);
+    border-bottom: 2px solid var(--border-color);
+    margin: 0;
 }
+
+
+
+
 
 @media (max-width: 1000px) {
 
