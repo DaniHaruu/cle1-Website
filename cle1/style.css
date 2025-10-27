@@ -69,17 +69,22 @@ header p {
 
 .section1 {
     background-color:var(--tertiary-bg-color);
+    border-bottom: 2px solid var(--border-color);
 }
-
 
 .section2 {
     background-color:var(--quaternary-bg-color);
+    border-bottom: 2px solid var(--border-color);
 }
-
 
 .section3 {
     background-color:var(--tertiary-bg-color);
+    border-bottom: 2px solid var(--border-color);
 }
+
+
+
+
 
 @media (max-width: 1000px) {
 
