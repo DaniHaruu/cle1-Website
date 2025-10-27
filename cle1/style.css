@@ -109,6 +109,7 @@ footer {
     justify-content: space-around;
     text-decoration: none;
     background-color:var(--secondary-bg-color);
+    padding: 6px;
 }
 
 
