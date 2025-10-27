@@ -39,7 +39,7 @@ nav img {
     flex: 1;
 }
 
-.button {
+.button1, .button2, .button3, button{
     background-color: var(--secondary-bg-color);
     border: none;
     color: var(--text-color);
@@ -51,8 +51,13 @@ nav img {
     cursor: pointer;
 }
 
-.button:hover {
+.button1:hover, .button3:hover {
     background-color: var(--tertiary-bg-color);
+    transition: 0.3s ease;
+}
+
+.button2:hover, button:hover {
+    background-color: var(--quaternary-bg-color);
     transition: 0.3s ease;
 }
 
@@ -99,8 +104,11 @@ header p {
     padding: 8px 40px;
 }
 
-
-
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
 
 
 @media (max-width: 1000px) {
