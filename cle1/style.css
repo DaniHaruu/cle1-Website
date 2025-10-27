@@ -101,8 +101,11 @@ header p {
     margin: 0;
 }
 
-
-
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
 
 
 @media (max-width: 1000px) {
