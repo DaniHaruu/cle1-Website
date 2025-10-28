@@ -125,6 +125,10 @@ footer {
         text-align: center;
     }
 
+    nav a {
+        width: 100%;
+    }
+
     header, h2, h3 {
         font-size: 0.9rem;
     }
