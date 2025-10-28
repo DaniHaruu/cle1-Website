@@ -101,7 +101,11 @@ header p {
 }
 
 .section1 img {
-    height: 40vh;
+    height: 30vh;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 50px;
+    display: block;
 }
 
 .container {
@@ -111,6 +115,13 @@ header p {
     flex: 1;
     color: var(--text-color);
     border: 2px solid var(--border-color);
+}
+
+.explanation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .section2 {
