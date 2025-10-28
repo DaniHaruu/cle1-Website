@@ -108,7 +108,7 @@ header p {
 }
 
 .container {
-    background-color: var(--quaternary-bg-color);
+    background-color: var(--container-color1);
     margin: 30px;
     padding: 20px;
     flex: 1;
