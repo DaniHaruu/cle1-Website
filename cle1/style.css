@@ -96,6 +96,23 @@ header p {
     padding: 8px 40px;
 }
 
+.section1 h2 {
+    text-align: center;
+}
+
+.section1 img {
+    height: 40vh;
+}
+
+.container {
+    background-color: var(--quaternary-bg-color);
+    margin: 30px;
+    padding: 20px;
+    flex: 1;
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+}
+
 .section2 {
     background-color:var(--quaternary-bg-color);
     border-bottom: 1px solid var(--border-color);
@@ -108,10 +125,6 @@ header p {
     border-bottom: 2px solid var(--border-color);
     border-top: 1px solid var(--border-color);
     padding: 8px 40px;
-}
-
-.section1 img {
-    height: 40vh;
 }
 
 footer {
