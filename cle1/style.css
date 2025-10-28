@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: var(--text-color);
     padding: 40px;
     flex: 2;
     text-decoration: none; 
@@ -120,11 +120,7 @@ footer {
 
 @media (max-width: 800px) {
 
-    nav {
-        flex-direction: column;
-    }
-
-    footer {
+    nav, footer {
         flex-direction: column;
     }
 
