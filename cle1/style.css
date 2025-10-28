@@ -122,6 +122,7 @@ footer {
 
     nav, footer {
         flex-direction: column;
+        text-align: center;
     }
 
     header, h2, h3 {
