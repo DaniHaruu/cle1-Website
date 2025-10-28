@@ -118,7 +118,7 @@ footer {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 
     nav {
         flex-direction: column;
@@ -127,6 +127,20 @@ footer {
     footer {
         flex-direction: column;
     }
+
+    header, h2, h3 {
+        font-size: 0.9rem;
+    }
+
+    header p {
+        font-size: 1.0rem;
+    }
+
+    body, .button, .buttonSpecial {
+        font-size: 0.8rem;
+    }
+    /*Ik verander voor nu de font-size zodat de website responsive is aan een telefoon maar er is misschien wel een betere manier om dit te doen.*/
+
 }
 
 @media (prefers-color-scheme: dark) {
