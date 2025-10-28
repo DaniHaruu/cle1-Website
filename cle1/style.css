@@ -188,6 +188,8 @@ footer img {
     }
 }
 
+/*Het is volgensmij eigenlijk de bedoeling dat we al de media dingen in hetzelfde ding zetten behalve dat van dark mode*/
+
 @media (prefers-color-scheme: dark) {
     :root {
         --primary-bg-color: black;
