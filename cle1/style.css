@@ -97,6 +97,27 @@ header p {
     padding: 8px 40px;
 }
 
+.producten-row {
+    display: flex;
+    gap: 10rem;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.producten-row > div {
+    flex: 1 1 0;
+    min-width: 0;
+    background-color: var(--primary-bg-color);
+    border-radius: 15px;
+    font-size: 1.2em;
+    padding: 10px;
+    outline: var(--border-color) 1px solid;
+}
+
 .section1 h2 {
     text-align: center;
 }
