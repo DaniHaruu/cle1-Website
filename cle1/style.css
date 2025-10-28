@@ -110,6 +110,10 @@ header p {
     padding: 8px 40px;
 }
 
+.section1 img {
+    height: 40vh;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
