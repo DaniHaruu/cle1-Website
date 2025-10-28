@@ -108,10 +108,9 @@ header p {
 }
 
 .container {
-    background-color: var(--quaternary-bg-color);
+    background-color: var(--container-color1);
     margin: 30px;
     padding: 20px;
-    flex: 1;
     color: var(--text-color);
     border: 2px solid var(--border-color);
 }
@@ -187,6 +186,8 @@ footer img {
         font-size: 1.3rem;
     }
 }
+
+/*Het is volgensmij eigenlijk de bedoeling dat we al de media dingen in hetzelfde ding zetten behalve dat van dark mode*/
 
 @media (prefers-color-scheme: dark) {
     :root {
