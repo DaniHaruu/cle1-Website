@@ -6,8 +6,8 @@
     --text-color: #253237;
     --border-color: #5C6B73;
     --container-color1: #99c8cf;
-    --container-color2: #99c8cf;
-    --container-color3: #99c8cf;
+    --container-color2: white;
+    --container-color3: #E0EAFB;
 }
 
 * {
