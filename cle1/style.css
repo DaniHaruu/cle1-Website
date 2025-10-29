@@ -197,7 +197,6 @@ header p {
 footer {
     background-color: var(--primary-bg-color);
     color: var(--text-color);
-    border-top: 2px solid var(--border-color);
     display: flex;
     justify-content: space-between;
     padding: 6px;
