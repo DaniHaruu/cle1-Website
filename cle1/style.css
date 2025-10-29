@@ -230,4 +230,8 @@ footer img {
         --text-color: white;
         --border-color: #C2DFE3;
     }
+
+    header {
+        background-image: url(Images/koelkastDonker.jpg);
+    }
 }
