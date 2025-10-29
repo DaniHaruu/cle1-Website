@@ -140,14 +140,6 @@ header p {
     border: 2px solid var(--border-color);
 }
 
-.container img {
-    max-width: 100%;
-    height: 30vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .container2 {
     background-color: var(--container-color2);
     margin: 30px;
@@ -156,12 +148,14 @@ header p {
     border: 2px solid var(--border-color);
 }
 
-.container2 img {
+.container2 img, .container3 img {
     max-width: 100%;
     height: 30vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2.3vh;
+    border-radius: 15px;
 }
 
 .container3 {
@@ -242,7 +236,6 @@ footer img {
     header p {
         max-width: 90%;
     }
-
 }
 
 @media (max-width: 560px) {
