@@ -6,8 +6,6 @@
     --text-color: #253237;
     --border-color: #5C6B73;
     --container-color1: #99c8cf;
-    --container-color2: white;
-    --container-color3: #E0EAFB;
 }
 
 * {
@@ -206,6 +204,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 6px;
+    align-items: center;
 }
 
 footer a {
@@ -215,7 +214,7 @@ footer a {
 }
 
 footer img {
-    height: 10vh;
+    height: 8vh;
     max-width: 100%;
     flex: 1;
 }
