@@ -115,7 +115,6 @@ header p {
 .explanation > div {
     flex: 1 1 0;
     min-width: 0;
-    background-color: var(--container-color1);
     border-radius: 15px;
     font-size: 1.2em;
     padding: 10px;
