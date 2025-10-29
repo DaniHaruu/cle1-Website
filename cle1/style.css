@@ -172,6 +172,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 6px;
+    align-items: center;
 }
 
 footer a {
@@ -181,7 +182,7 @@ footer a {
 }
 
 footer img {
-    height: 10vh;
+    height: 8vh;
     max-width: 100%;
     flex: 1;
 }
