@@ -193,6 +193,10 @@ header p {
     gap: 2rem;
 }
 
+.section3 img {
+    max-width: 100%;
+}
+
 footer {
     background-color: var(--primary-bg-color);
     color: var(--text-color);
@@ -215,6 +219,16 @@ footer img {
     flex: 1;
 }
 
+@media (max-width: 1240px) {
+    .explanation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 img, .container3 img {
+        margin: auto;
+    }
+}
 
 @media (max-width: 800px) {
 
