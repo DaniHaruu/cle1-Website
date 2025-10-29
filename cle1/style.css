@@ -64,7 +64,7 @@ nav img {
 }
 
 header {
-    background-image: url(Images/koelkast.jpg);
+    background-image: url(Images/koelkastDonker.jpg);
     background-size: cover;
     height: 30vh;
     text-align: center;
@@ -165,10 +165,11 @@ header p {
 }
 
 footer {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    border-top: 2px solid var(--border-color);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    text-decoration: none;
     padding: 6px;
 }
 
