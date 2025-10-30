@@ -156,7 +156,7 @@ header p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2.3vh;
+    margin-top: 2vh;
 }
 
 .container3 {
@@ -272,8 +272,6 @@ footer img {
         font-size: 1.3rem;
     }
 }
-
-/*Het is volgensmij eigenlijk de bedoeling dat we al de media dingen in hetzelfde ding zetten behalve dat van dark mode*/
 
 @media (prefers-color-scheme: dark) {
     :root {
