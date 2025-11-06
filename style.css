@@ -261,6 +261,10 @@ footer img {
     header p {
         max-width: 90%;
     }
+
+    .button {
+        width: 100%;
+    }
 }
 
 @media (max-width: 560px) {
