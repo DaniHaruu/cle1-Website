@@ -184,7 +184,7 @@ header p {
     text-align: center;
 }
 
-#section3 {
+#manual {
     background-color:var(--tertiary-bg-color);
     border-bottom: 2px solid var(--border-color);
     border-top: 1px solid var(--border-color);
@@ -196,11 +196,11 @@ header p {
     gap: 2rem;
 }
 
-#section3 img {
+#manual img {
     max-width: 100%;
 }
 
-#section3 div {
+#manual div {
     background-color: var(--container-color1);
     margin: 30px;
     padding: 30px;
@@ -209,7 +209,7 @@ header p {
     border-radius: 15px;
 }
 
-#section3 div img {
+#manual div img {
     border-radius: 15px;
 }
 
