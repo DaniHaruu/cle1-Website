@@ -240,10 +240,6 @@ footer img {
     .container2 img, .container3 img {
         margin: auto;
     }
-
-    header h1 {
-        font-size: 1.5rem;
-    }
 }
 
 @media (max-width: 800px) {
@@ -261,36 +257,11 @@ footer img {
         width: 100%;
     }
 
-    header p {
-        max-width: 90%;
-        font-size: 1.3rem;
-    }
-
     .button {
         width: 100%;
     }
-
-    header h1 {
-        font-size: 1.3rem;
-    }
 }
 
-@media (max-width: 560px) {
-    header p {
-        max-width: 100%;
-        font-size: 1.2rem;
-    }
-
-    header h1 {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 510px) {
-    header p {
-        font-size: 1.1rem;
-    }
-}
 
 @media (prefers-color-scheme: dark) {
     :root {
