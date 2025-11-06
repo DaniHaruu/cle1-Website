@@ -270,6 +270,7 @@ footer img {
 @media (max-width: 560px) {
     header p {
         max-width: 100%;
+        font-size: 1.2rem;
     }
 }
 
