@@ -259,7 +259,7 @@ footer img {
 
     header p {
         max-width: 90%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .button {
@@ -275,7 +275,7 @@ footer img {
 
 @media (max-width: 510px) {
     header p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
 
