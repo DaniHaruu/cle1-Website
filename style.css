@@ -208,6 +208,7 @@ footer {
     justify-content: space-between;
     padding: 6px;
     align-items: center;
+    gap: 2rem;
 }
 
 footer a {
