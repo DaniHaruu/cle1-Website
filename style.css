@@ -89,7 +89,6 @@ header p {
     max-width: 71%;
     width: 100%;
     margin: auto;
-    padding-bottom: 1vh;
     word-break: break-word;
 }
 
@@ -279,6 +278,12 @@ footer img {
 @media (max-width: 410px) {
     header {
         height: 44vh;
+    }
+}
+
+@media (max-width: 390px) {
+    header {
+        height: 46vh;
     }
 }
 
