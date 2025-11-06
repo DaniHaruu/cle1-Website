@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLE 1</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+<nav>
+    <div>
+        <img src="images/transparantLogo.png" alt="Logo">
+    </div>
+    <div>
+        <a href="index.html">Terug</a>
+    </div>
+</nav>
+
+<main>
+    <header>
+        <h1>Contact</h1>
+        <p>Heeft u een vraag, is er iets mis gegaan of heeft u ergens hulp bij nodig? We zullen u zo spoedig mogelijk helpen nadat u dit formulier heeft ingevuld.</p>
+    </header>
+
+    <section class="section1">
+        <h2>Form</h2>
+        <form action="https://docent.cmi.hr.nl/moora/frontend/send-mail.php" method="POST">
+            <div class="form-field">
+                <label for="first-name">Voornaam:</label>
+                <input type="text" id="name" name="name" placeholder="Voornaam" required>
+            </div>
+            <div class="form-field">
+                <label for="last-name">Achternaam:</label>
+                <input type="text" id="name" name="name" placeholder="Achternaam" required>
+            </div>
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Someone@hr.nl" required>
+            </div>
+            <div class="form-field">
+                <label for="city">Woonplaats:</label>
+                <input type="text" id="city" name="city" placeholder="Woonplaats" required>
+            </div>
+            <div class="form-field">
+                <label for="birth-date">Geboortedatum:</label>
+                <input type="date" id="birth-date" name="birth-date" placeholder="dd-mm-jjjj" required>
+            </div>
+            <div class="form-field">
+                <label for="subject">Onderwerp:</label>
+                <select id="onderwerp" name="onderwerp">
+                    <option value="" disabled selected>Kies onderwerp van het bericht..</option>
+                    <option value="vraag">Vraag</option>
+                    <option value="probleem">Probleem</option>
+                    <option value="hulp">Hulp</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <label for="Message">Bericht:</label>
+                <input type="text" id="Message" name="Message" placeholder="typ je bericht" required>
+            </div>
+            <div class="form-field">
+                <p>Wilt u zich inschrijven voor de nieuwsbrief?</p>
+                <input type="radio" id="ja" name="news-letter" value="ja"/>
+                <label for="ja">Ja</label>
+                <input type="radio" id="nee" name="news-letter" value="nee"/>
+                <label for="nee">Nee</label>
+            </div>
+            <div class="form-field">
+                <label for="agree">Ik ga akkoord met de algemene voorwaarden</label>
+                <input type="checkbox" id="agree" name="agree" required>
+            </div>
+            <div class="form-field">
+                <button type="submit" id="send-to" name="send-to">Versturen</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+
+<footer>
+    <div>
+        <img src="images/transparantLogo.png" alt="Logo">
+        <p>Copyright 2025 CollectorPaws</p>
+    </div>
+    <div>
+        <a href="contact.html">Privacy Policy</a>
+    </div>
+    <div>
+        <a href="contact.html">Terms & Conditions</a>
+    </div>
+    <div>
+        <a href="contact.html">Cookie Policy</a>
+    </div>
+    <div>
+        <a href="contact.html">Contact</a>
+    </div>
+</footer>
+
+
+</body>
