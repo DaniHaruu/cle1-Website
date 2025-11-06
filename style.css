@@ -73,7 +73,7 @@ header {
     text-align: center;
     color: var(--text-color);
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 5px;
     border-bottom: 1px solid var(--border-color);
     text-shadow:
             -1px -1px 0 var(--secondary-bg-color),  /* top-left shadow */
