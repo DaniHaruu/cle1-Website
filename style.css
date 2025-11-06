@@ -93,7 +93,7 @@ header p {
     word-break: break-word;
 }
 
-#section1 {
+#description {
     background-color:var(--tertiary-bg-color);
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
@@ -101,15 +101,15 @@ header p {
     text-align: center;
 }
 
-#section1 p {
+#description p {
     font-size: 1.2rem;
 }
 
-#section1 h2 {
+#description h2 {
     text-align: center;
 }
 
-#section1 img {
+#description img {
     max-width: 100%;
     object-fit: contain;
     margin: 0 50px;
@@ -163,7 +163,7 @@ header p {
     min-width: 20vw;
 }
 
-#section2 {
+#why {
     background-color:var(--quaternary-bg-color);
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);

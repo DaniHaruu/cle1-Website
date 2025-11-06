@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #bde0fe;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding: 6px;
+}
+
+nav a {
+    color: black;
+    padding: 40px;
+    flex: 2;
+}
+
+nav img {
+    height: 10vh;
+    max-width: 100%;
+    flex: 1;
+}
+
+button {
+    background-color:#a2d2ff;
+    width: 100%;
+    padding: 8px 20px;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px white;
+}
+
+button:hover {
+    background-color: #5da4e6;
+    transition: 0.3s ease;
+}
+
+header {
+    background-color: #cdb4db;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    border-bottom: 2px solid black;
+}
+
+.section1 {
+    text-align: center;
+    background-color: #ffc8dd;
+    padding: 1rem 4rem;
+    border-bottom: 2px solid black;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffafcc;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px;
+    color: black;
+    border: 2px solid black;
+    max-width: 500px;
+}
+
+label, input, select {
+    width: 100%;
+    max-width: 200px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.form-field label {
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+footer {
+    background-color: #bde0fe;
+    color: black;
+    border-top: 2px solid black;
+    margin: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+footer a {
+    color: black;
+    padding: 40px;
+    flex: 2;
+}
+
+footer img {
+    height: 10vh;
+    max-width: 100%;
+    flex: 1;
+}
+
+
+@media (max-width: 500px) {
+
+    .form-field {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: stretch;
+        margin-bottom: 6px;
+        flex-direction: column;
+    }
+
+    .section1 {
+        padding: 1rem;
+    }
+
+    .form-field label {
+        padding: 4px;
+    }
+
+    label, input, select, textarea {
+        width: 100%;
+        max-width: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+}
