@@ -1,5 +1,5 @@
-:root { 
-    --primary-bg-color: white; 
+:root {
+    --primary-bg-color: white;
     --secondary-bg-color: #E0FBFC;
     --tertiary-bg-color: #C2DFE3;
     --quaternary-bg-color: #9DB4C0;
@@ -69,11 +69,11 @@ nav img {
 header {
     background-image: url("images/koelkast.jpg");
     background-size: cover;
-    height: 40vh;
+    height: 30vh;
     text-align: center;
     color: var(--text-color);
     font-size: 1.2rem;
-    padding: 5px;
+    padding: 10px;
     border-bottom: 1px solid var(--border-color);
     text-shadow:
             -1px -1px 0 var(--secondary-bg-color),  /* top-left shadow */
@@ -89,7 +89,6 @@ header p {
     max-width: 71%;
     width: 100%;
     margin: auto;
-    padding-bottom: 30px;
     word-break: break-word;
 }
 
@@ -257,9 +256,12 @@ footer img {
         width: 100%;
     }
 
+    header {
+        height: 35vh;
+    }
+
     header p {
         max-width: 90%;
-        font-size: 1.3rem;
     }
 
     .button {
@@ -267,16 +269,21 @@ footer img {
     }
 }
 
-@media (max-width: 560px) {
-    header p {
-        max-width: 100%;
-        font-size: 1.2rem;
+@media (max-width: 510px) {
+    header {
+        height: 40vh;
     }
 }
 
-@media (max-width: 510px) {
-    header p {
-        font-size: 1.1rem;
+@media (max-width: 410px) {
+    header {
+        height: 44vh;
+    }
+}
+
+@media (max-width: 390px) {
+    header {
+        height: 46vh;
     }
 }
 
