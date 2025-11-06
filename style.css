@@ -56,8 +56,6 @@ nav img {
     cursor: pointer;
 }
 
-/*Zorg dat de buttons stretchen over de pagina*/
-
 .buttonSpecial:hover {
     background-color: var(--tertiary-bg-color);
     transition: 0.3s ease;
