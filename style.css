@@ -240,6 +240,10 @@ footer img {
     .container2 img, .container3 img {
         margin: auto;
     }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 800px) {
@@ -278,7 +282,7 @@ footer img {
     }
 
     header h1 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
