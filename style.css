@@ -44,7 +44,7 @@ nav img {
     flex: 1;
 }
 
-.button, .buttonSpecial {
+.button, .buttonsSpecial {
     background-color: var(--primary-bg-color);
     border: none;
     color: var(--text-color);
@@ -56,7 +56,7 @@ nav img {
     cursor: pointer;
 }
 
-.buttonSpecial:hover {
+.buttonsSpecial:hover {
     background-color: var(--tertiary-bg-color);
     transition: 0.3s ease;
 }
